@@ -70,7 +70,9 @@ class _MyHomePageState extends State<MyHomePage> {
               StreamBuilder(
                   stream: channel.stream,
                   builder: (context,snapshot)=>
-                      Text("${snapshot.hasData ? snapshot.data : "No Data"}")
+                      Text(
+                        "${snapshot.hasData ? snapshot.data : "No Data"}"
+                      )
               )
 
             ],
