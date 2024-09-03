@@ -34,7 +34,6 @@ class _MyHomePageState extends State<MyHomePage> {
   WebSocketChannel channel = IOWebSocketChannel.connect(Uri.parse("ws://echo.websocket.org"));
   TextEditingController textEditingController = TextEditingController();
 
-
   @override
   void dispose() {
     // TODO: implement dispose
